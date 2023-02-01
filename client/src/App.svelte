@@ -1,9 +1,7 @@
 <script lang="ts">
-  import Counter from "./lib/Counter.svelte";
+  import Navbar from "./layouts/Navbar.svelte";
 </script>
 
 <main>
-  <div class="card">
-    <Counter />
-  </div>
+  <Navbar />
 </main>
