@@ -14,15 +14,12 @@
 </script>
 
 <Navbar color="dark" dark>
-  <NavbarBrand href="/" class="me-auto">sveltestrap</NavbarBrand>
+  <NavbarBrand href="/" class="me-auto">topic</NavbarBrand>
   <NavbarToggler on:click={toggle} class="me-2" />
   <Collapse {isOpen} navbar>
     <Nav navbar>
       <NavItem>
-        <NavLink href="#components/">Components</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink href="https://github.com/bestguy/sveltestrap">GitHub</NavLink>
+        <NavLink href="/">Home</NavLink>
       </NavItem>
     </Nav>
   </Collapse>
