@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Navbar from "./layouts/Navbar.svelte";
+  import MyNavbar from "./layouts/MyNavbar.svelte";
 </script>
 
 <main>
-  <Navbar />
+  <MyNavbar />
 </main>
